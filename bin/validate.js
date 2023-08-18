@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-const iconPath = './src/drivers/webextension/images/icons'
+const iconPath = './src/images/icons'
 
 const categories = JSON.parse(fs.readFileSync('./src/categories.json'))
 
@@ -156,6 +156,10 @@ Object.keys(technologies).forEach((name) => {
 
       flags.forEach((flag) => {
         const [key, value] = flag.split(':')
+
+        if (key === 'version') {
+          return
+        }
 
         if (key === 'confidence') {
           if (

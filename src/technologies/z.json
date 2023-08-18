@@ -7,7 +7,7 @@
     "icon": "ZK.png",
     "implies": "Java",
     "scriptSrc": "zkau/",
-    "website": "http://zkoss.org"
+    "website": "https://zkoss.org"
   },
   "ZURB Foundation": {
     "cats": [
@@ -22,7 +22,7 @@
     "js": {
       "Foundation.version": "([\\d.]+)\\;version:\\1"
     },
-    "website": "http://foundation.zurb.com"
+    "website": "https://foundation.zurb.com"
   },
   "Zabbix": {
     "cats": [
@@ -39,7 +39,7 @@
       "Author": "ZABBIX SIA\\;confidence:70"
     },
     "url": "\\/zabbix\\/\\;confidence:30",
-    "website": "http://zabbix.com"
+    "website": "https://zabbix.com"
   },
   "Zakeke": {
     "cats": [
@@ -125,23 +125,37 @@
       "zanox": ""
     },
     "scriptSrc": "zanox\\.com/scripts/zanox\\.js$",
-    "website": "http://zanox.com"
+    "website": "https://zanox.com"
   },
-  "Zaraz": {
+  "Zeabur": {
     "cats": [
-      92
+      62
     ],
-    "description": "Zaraz allows most tools to send their information through the Zaraz backend, replacing multiple network requests with a single request. Zaraz replaces heavy third-party widgets with a lighter-weight version that loads first so that the full-featured tool loads only when the browser reaches interactivity or upon user interaction.",
-    "icon": "Zaraz.svg",
-    "js": {
-      "zaraz": "",
-      "zarazData": ""
+    "description": "Zeabur is a platform for running full stack apps and databases.",
+    "headers": {
+      "X-Zeabur-Request-Id": ""
     },
+    "icon": "zeabur.svg",
+    "pricing": [
+      "freemium",
+      "payg"
+    ],
+    "website": "https://zeabur.com"
+  },
+  "Zeald": {
+    "cats": [
+      6
+    ],
+    "cookies": {
+      "ZES_BACKEND": "zeald"
+    },
+    "description": "Zeald is a full-service website design and digital marketing company.",
+    "icon": "Zeald.png",
     "pricing": [
       "poa"
     ],
-    "saas": true,
-    "website": "https://zaraz.com"
+    "requires": "Cart Functionality",
+    "website": "https://www.zeald.com"
   },
   "Zeleris": {
     "cats": [
@@ -162,7 +176,7 @@
     "meta": {
       "generator": "Zen Cart"
     },
-    "website": "http://www.zen-cart.com"
+    "website": "https://www.zen-cart.com"
   },
   "Zend": {
     "cats": [
@@ -176,7 +190,7 @@
       "X-Powered-By": "Zend(?:Server)?(?:[\\s/]?([0-9.]+))?\\;version:\\1"
     },
     "icon": "Zend.png",
-    "website": "http://zend.com"
+    "website": "https://zend.com"
   },
   "Zendesk": {
     "cats": [
@@ -198,7 +212,7 @@
     "headers": {
       "x-zendesk-user-id": ""
     },
-    "icon": "Zendesk.png",
+    "icon": "Zendesk.svg",
     "js": {
       "Zendesk": ""
     },
@@ -221,7 +235,22 @@
     ],
     "saas": true,
     "scriptSrc": "v2\\.zopim\\.com",
-    "website": "http://zopim.com"
+    "website": "https://zopim.com"
+  },
+  "Zendesk Sunshine Conversations": {
+    "cats": [
+      52
+    ],
+    "description": "Zendesk Sunshine Conversations lets you share a single, continuous conversation with every team in your business. With a unified API and native connectors to popular business applications like Zendesk and Slack, everyone in your organization can get access to a single view of the customer conversation.",
+    "icon": "Zendesk.svg",
+    "implies": "Zendesk",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn\\.smooch\\.io/",
+    "website": "https://www.zendesk.com/platform/conversations"
   },
   "Zenfolio": {
     "cats": [
@@ -257,7 +286,7 @@
       "Zepto": ""
     },
     "scriptSrc": "zepto.*\\.js",
-    "website": "http://zeptojs.com"
+    "website": "https://zeptojs.com"
   },
   "ZestMoney": {
     "cats": [
@@ -312,6 +341,22 @@
     "saas": true,
     "website": "https://zid.sa"
   },
+  "Ziggy": {
+    "cats": [
+      59
+    ],
+    "description": "Ziggy is a library that allows using Laravel named routes in JavaScript.",
+    "icon": "Ziggy.png",
+    "implies": [
+      "Laravel",
+      "Inertia.js"
+    ],
+    "js": {
+      "Ziggy": ""
+    },
+    "oss": true,
+    "website": "https://github.com/tighten/ziggy"
+  },
   "Zimbra": {
     "cats": [
       30
@@ -351,7 +396,7 @@
     "meta": {
       "generator": "Zinnia"
     },
-    "website": "http://django-blog-zinnia.com"
+    "website": "https://django-blog-zinnia.com"
   },
   "Zinrelo": {
     "cats": [
@@ -564,6 +609,7 @@
     "cats": [
       12
     ],
+    "icon": "Angular.svg",
     "implies": "Angular",
     "js": {
       "Zone.root": ""
@@ -629,7 +675,23 @@
       "Server": "^Zope/"
     },
     "icon": "Zope.png",
-    "website": "http://zope.org"
+    "website": "https://zope.org"
+  },
+  "Zotabox": {
+    "cats": [
+      32
+    ],
+    "description": "Zotabox is marketing tool which includes popups, header bars, page/form builder, testimonial, live chat, etc.",
+    "icon": "zotabox.png",
+    "js": {
+      "Zotabox": "",
+      "Zotabox_Init": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "website": "https://info.zotabox.com"
   },
   "Zozo": {
     "cats": [
@@ -665,23 +727,5 @@
     ],
     "saas": true,
     "website": "https://www.zuppler.com"
-  },
-  "Zyro": {
-    "cats": [
-      51
-    ],
-    "description": "Zyro is a website builder service by the Hostinger group.",
-    "icon": "Zyro.svg",
-    "implies": "Vue.js",
-    "meta": {
-      "generator": "^Zyro\\.com Website Builder$"
-    },
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": "userapp\\.zyrosite\\.com/",
-    "website": "https://zyro.com"
   }
 }

@@ -10,7 +10,7 @@
       "d3.version": "^(.+)$\\;version:\\1"
     },
     "scriptSrc": "/d3(?:\\. v\\d+)?(?:\\.min)?\\.js",
-    "website": "http://d3js.org"
+    "website": "https://d3js.org"
   },
   "DDoS-Guard": {
     "cats": [
@@ -67,9 +67,17 @@
     "cats": [
       59
     ],
+    "description": "DHTMLX specialises in building JavaScript UI libraries for project management, event planning, big data visualisation, and reporting.",
     "icon": "DHTMLX.png",
-    "scriptSrc": "dhtmlxcommon\\.js",
-    "website": "http://dhtmlx.com"
+    "js": {
+      "dhtmlDragAndDropObject": "",
+      "dhtmlXTreeItemObject": ""
+    },
+    "pricing": [
+      "onetime"
+    ],
+    "scriptSrc": "/dhtmlxcommon\\.js",
+    "website": "https://dhtmlx.com"
   },
   "DM Polopoly": {
     "cats": [
@@ -79,7 +87,7 @@
     "dom": "img[data-src*='/polopoly_fs/'], link[href*='/polopoly_fs/'], img[src*='/polopoly_fs/']",
     "icon": "DM Polopoly.png",
     "implies": "Java",
-    "website": "http://www.atex.com/products/dm-polopoly"
+    "website": "https://www.atex.com/products/dm-polopoly"
   },
   "DNN": {
     "cats": [
@@ -98,11 +106,11 @@
       "<!-- by DotNetNuke Corporation",
       "<!-- DNN Platform"
     ],
-    "icon": "DNN.png",
+    "icon": "DNN.svg",
     "implies": "Microsoft ASP.NET",
     "js": {
       "DotNetNuke": "",
-      "dnn.apiversion": "^(.+)$\\;version:\\1"
+      "dnn.apiversion": "^([\\d\\.]+)$\\;version:\\1"
     },
     "meta": {
       "generator": "DotNetNuke"
@@ -112,7 +120,7 @@
       "/js/dnncore\\.js",
       "/js/dnn\\.js"
     ],
-    "website": "http://dnnsoftware.com"
+    "website": "https://www.dnnsoftware.com/"
   },
   "DPD": {
     "cats": [
@@ -164,6 +172,24 @@
       "\\bDX\\b"
     ],
     "website": "https://www.dxdelivery.com"
+  },
+  "DX1": {
+    "cats": [
+      53
+    ],
+    "description": "DX1 is an entirely cloud-based dealership management system for the motorcycle and powersports industry. Offering DMS, website, CRM and marketing tools.",
+    "icon": "DX1.png",
+    "js": {
+      "Dx1.Dnn": ""
+    },
+    "pricing": [
+      "high",
+      "recurring"
+    ],
+    "requires": "DNN",
+    "saas": true,
+    "scriptSrc": "\\.dx1app\\.com/",
+    "website": "https://www.dx1app.com"
   },
   "Dachser": {
     "cats": [
@@ -240,7 +266,7 @@
       "poa"
     ],
     "saas": true,
-    "website": "http://perldancer.org"
+    "website": "https://perldancer.org"
   },
   "Danneo CMS": {
     "cats": [
@@ -251,13 +277,13 @@
     },
     "icon": "Danneo CMS.png",
     "implies": [
-      "Apache",
+      "Apache HTTP Server",
       "PHP"
     ],
     "meta": {
       "generator": "Danneo CMS ([\\d.]+)\\;version:\\1"
     },
-    "website": "http://danneo.com"
+    "website": "https://danneo.com"
   },
   "Daphne": {
     "cats": [
@@ -274,6 +300,19 @@
     ],
     "oss": true,
     "website": "https://github.com/django/daphne"
+  },
+  "Darkmode.js": {
+    "cats": [
+      59
+    ],
+    "description": "Darkmode.js is a JavaScript library that enables an HTML element to switch between CSS themes.",
+    "icon": "default.svg",
+    "js": {
+      "Darkmode": ""
+    },
+    "oss": true,
+    "scriptSrc": "darkmode-js@([\\d\\.]+)/lib/darkmode-js\\.min\\.js\\;version:\\1",
+    "website": "https://github.com/sandoche/Darkmode.js"
   },
   "Dart": {
     "cats": [
@@ -302,6 +341,29 @@
     "icon": "Apple.svg",
     "website": "https://opensource.apple.com"
   },
+  "DataDome": {
+    "cats": [
+      16
+    ],
+    "cookies": {
+      "datadome": "",
+      "datadome-_zldp": "",
+      "datadome-_zldt": ""
+    },
+    "description": "DataDome is a cybersecurity platform that specialises in bot protection and mitigation, offering advanced solutions to safeguard websites and mobile applications against malicious bot traffic, credential stuffing, scraping, and other automated threats.",
+    "headers": {
+      "Server": "^DataDome$",
+      "X-DataDome": "",
+      "X-DataDome-CID": ""
+    },
+    "icon": "DataDome.svg",
+    "pricing": [
+      "high",
+      "recurring"
+    ],
+    "scriptSrc": "^https://ct\\.datadome\\.co/[a-z]\\.js$",
+    "website": "https://datadome.co"
+  },
   "DataLife Engine": {
     "cats": [
       1
@@ -310,7 +372,7 @@
     "icon": "DataLife Engine.svg",
     "implies": [
       "PHP",
-      "Apache"
+      "Apache HTTP Server"
     ],
     "js": {
       "dle_root": ""
@@ -350,7 +412,7 @@
     },
     "oss": true,
     "scriptSrc": "dataTables.*\\.js",
-    "website": "http://datatables.net"
+    "website": "https://datatables.net"
   },
   "Datadog": {
     "cats": [
@@ -373,23 +435,24 @@
     "scriptSrc": "www\\.datadoghq-browser-agent\\.com",
     "website": "https://www.datadoghq.com"
   },
-  "Datadome": {
+  "Datatrics": {
     "cats": [
-      16
+      97
     ],
-    "cookies": {
-      "datadome": "",
-      "datadome-_zldp": "",
-      "datadome-_zldt": ""
+    "description": "Datatrics is a data-driven marketing platform that provides businesses with advanced tools and analytics to optimise customer experiences, personalise marketing campaigns, and drive engagement through data-driven insights and automation.",
+    "dom": "link[href*='.datatrics.com']",
+    "icon": "Datatrics.svg",
+    "js": {
+      "DatatricsClick": "",
+      "datatricsEvents": ""
     },
-    "headers": {
-      "Server": "^DataDome$",
-      "X-DataDome": "",
-      "X-DataDome-CID": ""
-    },
-    "icon": "datadome.png",
-    "scriptSrc": "^https://ct\\.datadome\\.co/[a-z]\\.js$",
-    "website": "https://datadome.co/"
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://datatrics.com"
   },
   "DatoCMS": {
     "cats": [
@@ -476,7 +539,24 @@
       "DedeContainer": ""
     },
     "scriptSrc": "dedeajax",
-    "website": "http://dedecms.com"
+    "website": "https://dedecms.com"
+  },
+  "Delacon": {
+    "cats": [
+      10
+    ],
+    "description": "Delacon provides Australian businesses with Call Tracking, Call Management and Speech Analytics solutions.",
+    "icon": "Delacon.png",
+    "js": {
+      "dela_247_call": "",
+      "delaconphonenums": ""
+    },
+    "pricing": [
+      "payg",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.delacon.com.au"
   },
   "Delivengo": {
     "cats": [
@@ -556,6 +636,53 @@
     "saas": true,
     "website": "https://deno.land/"
   },
+  "Depict": {
+    "cats": [
+      76
+    ],
+    "description": "Depict is an ecommerce personalisation solution for fashion.",
+    "dom": "link[href*='.depict.ai/']",
+    "icon": "Depict.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://depict.ai"
+  },
+  "DeskPro": {
+    "cats": [
+      1,
+      53
+    ],
+    "cpe": "cpe:2.3:a:deskpro:deskpro:*:*:*:*:*:*:*:*",
+    "description": "DeskPro is multi channel helpdesk software for managing customer and citizen requests via email, forms, chat, social and voice.",
+    "icon": "DeskPro.svg",
+    "meta": {
+      "generator": "^DeskPRO.+$"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.deskpro.com"
+  },
+  "DeskPro Chat": {
+    "cats": [
+      52
+    ],
+    "description": "DeskPro is multi channel helpdesk software for managing customer and citizen requests via email, forms, chat, social and voice.",
+    "icon": "DeskPro.svg",
+    "js": {
+      "DESKPRO_WIDGET_OPTIONS.chat": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.deskpro.com/product/chat"
+  },
   "Deta": {
     "cats": [
       62
@@ -592,6 +719,17 @@
       "\\bDeutsche Post\\b"
     ],
     "website": "https://www.deutschepost.de"
+  },
+  "DiamondCDN": {
+    "cats": [
+      31
+    ],
+    "description": "DiamondCDN is a CDN with DDoS mitigation for free.",
+    "headers": {
+      "server": "^DiamondCDN$"
+    },
+    "icon": "DiamondCDN.png",
+    "website": "https://diamondcdn.com"
   },
   "Dianomi": {
     "cats": [
@@ -636,6 +774,24 @@
     "icon": "DigiCert.svg",
     "website": "https://www.digicert.com/"
   },
+  "Digismoothie Candy Rack": {
+    "cats": [
+      100
+    ],
+    "description": "Digismoothie Candy Rack is an upsell app for Shopify which allow merchants to offer custom services or bundle products.",
+    "icon": "Digismoothie.svg",
+    "implies": "Shopify",
+    "js": {
+      "CANDYRACK_DOCUMENT_LISTENER": "",
+      "candyrackEnableDebug": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.digismoothie.com/apps/candy-rack"
+  },
   "Digistore24": {
     "cats": [
       71
@@ -672,6 +828,20 @@
     "saas": true,
     "website": "https://digitalshowroom.in"
   },
+  "DigitalOcean Spaces": {
+    "cats": [
+      31,
+      63
+    ],
+    "description": "DigitalOcean Spaces is a cloud-based object storage service provided by DigitalOcean, a cloud infrastructure provider. It allows users to store and retrieve large amounts of data, such as images, videos, audio files, backups, and logs, using a simple RESTful API or a web-based graphical user interface (GUI).",
+    "dom": "img[data-src*='.digitaloceanspaces.com'], img[src*='.digitaloceanspaces.com']",
+    "icon": "DigitalOcean.svg",
+    "pricing": [
+      "payg",
+      "recurring"
+    ],
+    "website": "https://www.digitalocean.com/products/spaces"
+  },
   "DigitalRiver": {
     "cats": [
       6,
@@ -706,7 +876,7 @@
     "icon": "DirectAdmin.png",
     "implies": [
       "PHP",
-      "Apache"
+      "Apache HTTP Server"
     ],
     "website": "https://www.directadmin.com"
   },
@@ -763,7 +933,7 @@
     "meta": {
       "generator": "Discuz! X([\\d\\.]+)?\\;version:\\1"
     },
-    "website": "http://www.discuz.net"
+    "website": "https://www.discuz.net"
   },
   "Disqus": {
     "cats": [
@@ -835,12 +1005,17 @@
       87
     ],
     "description": "Divi is a WordPress Theme and standalone WordPress plugin from Elegant themes that allows users to build websites using the visual drag-and-drop Divi page builder.",
-    "icon": "Divi.png",
+    "dom": {
+      "style#divi-style-parent-inline-inline-css": {
+        "text": "Version\\:\\s([\\d\\.]+)\\;version:\\1"
+      }
+    },
+    "icon": "Divi.svg",
     "js": {
       "DIVI": ""
     },
     "meta": {
-      "generator": "Divi"
+      "generator": "Divi(?:\\sv\\.([\\d\\.]+))?\\;version:\\1"
     },
     "pricing": [
       "low",
@@ -935,6 +1110,19 @@
     "icon": "Docker.svg",
     "website": "https://www.docker.com/"
   },
+  "Docsify": {
+    "cats": [
+      4
+    ],
+    "description": "Docsify is an open-source documentation generator for creating user-friendly documentation websites.",
+    "icon": "Docsify.svg",
+    "js": {
+      "Docsify.version": "^([\\d\\.]+)$\\;version:\\1",
+      "DocsifyCompiler": ""
+    },
+    "oss": true,
+    "website": "https://docsify.js.org"
+  },
   "DocuSign": {
     "cats": [
       19
@@ -963,12 +1151,16 @@
     "icon": "docusaurus.svg",
     "implies": [
       "React",
-      "webpack"
+      "Webpack"
     ],
     "js": {
+      "__DOCUSAURUS_INSERT_BASEURL_BANNER": "",
+      "docusaurus": "",
       "search.indexName": ""
     },
     "meta": {
+      "docusaurus_locale": "",
+      "docusaurus_tag": "",
       "generator": "^Docusaurus(?: v(.+))?$\\;version:\\1"
     },
     "website": "https://docusaurus.io/"
@@ -1011,8 +1203,7 @@
     "implies": [
       "PHP",
       "Xajax",
-      "jQuery",
-      "CKEditor"
+      "jQuery"
     ],
     "meta": {
       "generator": "Dokeos"
@@ -1072,6 +1263,45 @@
     "scriptSrc": "/wp-content/plugins/iwd-checkout-connector/",
     "website": "https://www.dominate.co/woocommerce"
   },
+  "DonorPerfect": {
+    "cats": [
+      111
+    ],
+    "description": "DonorPerfect is a fundraising management software.",
+    "dom": {
+      "a[href*='.donorperfect.']": {
+        "attributes": {
+          "href": "\\.donorperfect\\.(?:com|net)"
+        }
+      }
+    },
+    "icon": "DonorPerfect.svg",
+    "pricing": [
+      "recurring",
+      "mid"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.donorperfect\\.net/",
+    "website": "https://www.donorperfect.com"
+  },
+  "Donorbox": {
+    "cats": [
+      111
+    ],
+    "description": "Donorbox is a US-based technology company. It offers an online fundraising software that allows individuals and nonprofit organisations to receive donations over the Internet.",
+    "dom": "a[href*='//donorbox.org/'], iframe[src*='//donorbox.org/']",
+    "icon": "Donorbox.svg",
+    "js": {
+      "DONORBOX": "",
+      "DonorBox": "",
+      "donorbox_check_donation_period": ""
+    },
+    "pricing": [
+      "payg"
+    ],
+    "saas": true,
+    "website": "https://donorbox.org"
+  },
   "Doofinder": {
     "cats": [
       29
@@ -1090,6 +1320,45 @@
     "scriptSrc": "cdn\\.doofinder\\.com/",
     "website": "https://www.doofinder.com"
   },
+  "Doppler": {
+    "cats": [
+      75
+    ],
+    "description": "Doppler is an email marketing and transactional email service.",
+    "icon": "Doppler.svg",
+    "pricing": [
+      "recurring",
+      "payg"
+    ],
+    "saas": true,
+    "scriptSrc": "//(?:hub|cdn)\\.fromdoppler\\.com/",
+    "website": "https://www.fromdoppler.com"
+  },
+  "Doppler Forms": {
+    "cats": [
+      87
+    ],
+    "description": "The Doppler Forms plugin allows you to create fully customised subscription forms that you can add to your website or blog.",
+    "icon": "Doppler.svg",
+    "implies": "Doppler",
+    "requires": "WordPress",
+    "scriptSrc": "/wp-content/plugins/doppler-form/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "website": "https://wordpress.org/plugins/doppler-form/"
+  },
+  "Doppler for WooCommerce": {
+    "cats": [
+      87
+    ],
+    "description": "The Doppler for WooCommerce plugin adds submit your WooCommerce customers and buyers to a Doppler List.",
+    "icon": "Doppler.svg",
+    "implies": "Doppler",
+    "requires": [
+      "WordPress",
+      "WooCommerce"
+    ],
+    "scriptSrc": "/wp-content/plugins/doppler-for-woocommerce/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "website": "https://wordpress.org/plugins/doppler-for-woocommerce/"
+  },
   "Dotclear": {
     "cats": [
       1
@@ -1100,7 +1369,7 @@
     },
     "icon": "Dotclear.png",
     "implies": "PHP",
-    "website": "http://dotclear.org"
+    "website": "https://dotclear.org"
   },
   "Dotdigital": {
     "cats": [
@@ -1137,6 +1406,35 @@
     "saas": true,
     "website": "https://dotdigital.com"
   },
+  "Doteasy": {
+    "cats": [
+      88
+    ],
+    "description": "Doteasy is a web hosting company that provides web hosting services, domain registration, and other related services for businesses and individuals. The company was founded in 2000 and is based in Vancouver, Canada.",
+    "icon": "Doteasy.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "website": "https://www.doteasy.com"
+  },
+  "Doteasy Website Builder": {
+    "cats": [
+      51
+    ],
+    "description": "Doteasy Website Builder is a tool provided by Doteasy, a web hosting company that enables users to create and personalise their own websites without necessitating any technical knowledge or expertise in website design.",
+    "icon": "Doteasy.svg",
+    "implies": "Doteasy",
+    "js": {
+      "fsData.fs": "\\.dotezcdn\\.com"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.doteasy.com/website-builder/"
+  },
   "DoubleClick Ad Exchange (AdX)": {
     "cats": [
       36
@@ -1149,7 +1447,7 @@
       "tpc\\.googlesyndication\\.com/safeframe",
       "googlesyndication\\.com.*abg\\.js"
     ],
-    "website": "http://www.doubleclickbygoogle.com/solutions/digital-marketing/ad-exchange/"
+    "website": "https://www.doubleclickbygoogle.com/solutions/digital-marketing/ad-exchange/"
   },
   "DoubleClick Campaign Manager (DCM)": {
     "cats": [
@@ -1157,7 +1455,7 @@
     ],
     "icon": "DoubleClick.svg",
     "scriptSrc": "2mdn\\.net",
-    "website": "http://www.doubleclickbygoogle.com/solutions/digital-marketing/campaign-manager/"
+    "website": "https://www.doubleclickbygoogle.com/solutions/digital-marketing/campaign-manager/"
   },
   "DoubleClick Floodlight": {
     "cats": [
@@ -1165,7 +1463,7 @@
     ],
     "icon": "DoubleClick.svg",
     "scriptSrc": "https?://fls\\.doubleclick\\.net",
-    "website": "http://support.google.com/ds/answer/6029713?hl=en"
+    "website": "https://support.google.com/ds/answer/6029713?hl=en"
   },
   "DoubleClick for Publishers (DFP)": {
     "cats": [
@@ -1178,7 +1476,7 @@
     ],
     "saas": true,
     "scriptSrc": "googletagservices\\.com/tag/js/gpt(?:_mobile)?\\.js",
-    "website": "http://www.google.com/dfp"
+    "website": "https://www.google.com/dfp"
   },
   "DoubleVerify": {
     "cats": [
@@ -1206,6 +1504,27 @@
     "scriptSrc": "dttrk\\.com",
     "website": "https://dovetale.com/"
   },
+  "Download Monitor": {
+    "cats": [
+      87
+    ],
+    "description": "Download Monitor is a plugin for selling, uploading and managing downloads, tracking downloads and displaying links.",
+    "dom": "link[href*='/wp-content/plugins/download-monitor/']",
+    "icon": "Download Monitor.png",
+    "js": {
+      "DLM_XHR_Download": "",
+      "dlmXHR.prevent_duplicates": ""
+    },
+    "meta": {
+      "dlm-version": "^([\\d\\.]+)$\\;version:\\1"
+    },
+    "pricing": [
+      "freemium",
+      "onetime"
+    ],
+    "requires": "WordPress",
+    "website": "https://www.download-monitor.com"
+  },
   "Doxygen": {
     "cats": [
       4
@@ -1217,7 +1536,7 @@
     "meta": {
       "generator": "Doxygen ([\\d.]+)\\;version:\\1"
     },
-    "website": "http://www.doxygen.nl/"
+    "website": "https://www.doxygen.nl/"
   },
   "Draft.js": {
     "cats": [
@@ -1252,7 +1571,8 @@
       "X-Powered-By": "Dragon Native ([\\d.]+)\\;version:\\1"
     },
     "icon": "Dragon.png",
-    "implies": "Apache",
+    "implies": "Apache HTTP Server",
+    "url": "^.*(?:\\.dgn)$",
     "website": "https://dragon-lang.org"
   },
   "Drapr": {
@@ -1268,6 +1588,25 @@
     "requiresCategory": 6,
     "scriptSrc": "draprpubsubtest\\.firebaseapp\\.com/",
     "website": "https://www.drapr.com"
+  },
+  "DreamApply": {
+    "cats": [
+      101,
+      19
+    ],
+    "description": "DreamApply is a specialised student application management system designed with and for education institutions.",
+    "icon": "DreamApply.png",
+    "implies": [
+      "Linkedin Sign-in",
+      "Facebook Login",
+      "Google Sign-in"
+    ],
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.cdn\\.dreamapply\\.com/",
+    "website": "https://dreamapply.com"
   },
   "DreamHost": {
     "cats": [
@@ -1291,7 +1630,10 @@
     ],
     "cpe": "cpe:2.3:a:adobe:dreamweaver:*:*:*:*:*:*:*:*",
     "description": "Dreamweaver is a development tool for creating, publishing, and managing websites and mobile content.",
-    "html": "<!--[^>]*(?:InstanceBeginEditable|Dreamweaver([^>]+)target|DWLayoutDefaultTable)\\;version:\\1",
+    "html": [
+      "<!--[^>]*(?:InstanceBeginEditable|Dreamweaver([^>]+)target|DWLayoutDefaultTable)\\;version:\\1",
+      "<!-- #BeginTemplate\\s\"[\\d_\\w/]+\\.dwt"
+    ],
     "icon": "DreamWeaver.png",
     "js": {
       "MM_preloadImages": "",
@@ -1307,7 +1649,7 @@
     ],
     "description": "Dreamdata is a B2B revenue attribution platform.",
     "dom": "link[href*='.bizible.com']",
-    "icon": "Dreamdata.png",
+    "icon": "Dreamdata.svg",
     "js": {
       "BizTrackingA": "",
       "Bizible": ""
@@ -1440,6 +1782,26 @@
     "scriptSrc": "chat-app\\.meudroz\\.com/",
     "website": "https://meudroz.com/droz-bot/"
   },
+  "Drubbit": {
+    "cats": [
+      6
+    ],
+    "description": "Drubbit is an ecommerce platform with a Content Management System (CMS) for creating product pages, managing checkout processes, facilitating payments, and handling shipping.",
+    "icon": "Drubbit.svg",
+    "implies": [
+      "Node.js",
+      "MySQL"
+    ],
+    "meta": {
+      "generator": "^Drubbit Commerce$"
+    },
+    "pricing": [
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://drubbit.com"
+  },
   "Drupal": {
     "cats": [
       1
@@ -1462,7 +1824,8 @@
     },
     "oss": true,
     "scriptSrc": "drupal\\.js",
-    "website": "https://drupal.org"
+    "scripts": "drupal_internal__nid",
+    "website": "https://www.drupal.org/"
   },
   "Drupal Commerce": {
     "cats": [
@@ -1480,36 +1843,55 @@
       "/profiles/commerce_kickstart/modules/contrib/commerce/modules/checkout/commerce_checkout\\.js\\;confidence:50",
       "/sites/(?:all|default)/modules/(?:contrib/)?commerce/modules/checkout/commerce_checkout\\.js\\;confidence:50"
     ],
-    "website": "http://drupalcommerce.org"
+    "website": "https://drupalcommerce.org"
   },
   "Drupal Multisite": {
     "cats": [
       88
     ],
     "description": "Drupal Multisite enables separate, independent sites to be served from a single codebase.",
+    "dom": {
+      "figure[style*='/sites/']": {
+        "attributes": {
+          "style": "/sites/(?!(?:default|all)/).*/(?:files|themes|modules)/"
+        }
+      },
+      "img[src*='/sites/'], img[srcset*='/sites/'], source[srcset*='/sites/']": {
+        "attributes": {
+          "src": "/sites/(?!(?:default|all)/).*/(?:files|themes|modules)/",
+          "srcset": "/sites/(?!(?:default|all)/).*/(?:files|themes|modules)/"
+        }
+      },
+      "style": {
+        "text": "/sites/(?!(?:default|all)/).*/(?:files|themes|modules)/"
+      }
+    },
     "icon": "Drupal.svg",
-    "implies": "Drupal",
     "oss": true,
+    "requires": "Drupal",
     "scriptSrc": [
-      "/sites/(?!.*(default|all)).*/(?:files|themes|modules)/"
+      "/sites/(?!(?:default|all)/).*/(?:files|themes|modules)/"
     ],
     "website": "https://www.drupal.org/docs/multisite-drupal"
   },
   "Duda": {
     "cats": [
-      1
+      1,
+      51
     ],
-    "description": "Duda is a web design platform for companies that offer web design services.",
-    "icon": "duda.png",
+    "description": "Duda is a user-friendly website builder and CMS platform that enables businesses and individuals to create responsive, mobile-friendly websites without extensive coding knowledge.",
+    "icon": "Duda.svg",
     "js": {
       "SystemID": "^.*DIRECT.*$",
       "d_version": "^(.*)$\\;version:\\1\\;confidence:0"
     },
     "pricing": [
-      "low"
+      "low",
+      "recurring"
     ],
     "saas": true,
-    "website": "https://www.duda.co/website-builder"
+    "scriptSrc": "dd-cdn\\.multiscreensite\\.com/",
+    "website": "https://www.duda.co"
   },
   "Duel": {
     "cats": [
@@ -1607,7 +1989,7 @@
     "meta": {
       "generator": "Dynamicweb ([\\d.]+)\\;version:\\1"
     },
-    "website": "http://www.dynamicweb.dk"
+    "website": "https://www.dynamicweb.dk"
   },
   "Dynatrace": {
     "cats": [
@@ -1660,6 +2042,23 @@
     "saas": true,
     "website": "https://dyte.io",
     "xhr": "cdn\\.dyte\\.in/"
+  },
+  "daisyUI": {
+    "cats": [
+      66
+    ],
+    "description": "daisyUI is a customisable Tailwind CSS component library that prevents verbose markup in frontend applications. With a focus on customising and creating themes for user interfaces, daisyUI uses pure CSS and Tailwind utility classes, allowing developers to write clean HTML.",
+    "dom": {
+      "link[href*='npm/daisyui']": {
+        "attributes": {
+          "href": "/npm/daisyui@([\\d\\.]+)/dist/\\;version:\\1"
+        }
+      }
+    },
+    "icon": "daisyUI.png",
+    "implies": "Tailwind CSS",
+    "oss": true,
+    "website": "https://daisyui.com"
   },
   "db-ip": {
     "cats": [
